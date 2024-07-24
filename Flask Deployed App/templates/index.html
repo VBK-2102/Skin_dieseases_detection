@@ -1,0 +1,88 @@
+<html>
+{% extends 'base.html' %}
+{% block pagetitle %}
+AI Engine
+{% endblock pagetitle %}
+<style>.btn-outline-primary {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}</style>
+{% block body %}
+<div>
+    <div class="container" >
+        <div class="row mb-5 text-center text-white">
+            <div class="col-lg-10 mx-auto">
+                <h1 class="display-4" style="text-align:left;padding-top: 2%;font-weight: 600;color: rgb(23, 131, 173);">Scan Here</b></h1>
+                <p class="lead" style=" text-align:left;font-weight: 500;color: rgb(0, 0, 0);">Let AI Engine Will Help You To Detect Disease</p>
+            </div>
+        </div>
+        <div class="col mx-auto">
+            <div class="p-5 bg-white shadow rounded-lg"><img  
+                src="https://img.freepik.com/premium-vector/science-researching-center-laboratory-workers_273625-2296.jpg?w=826"
+                height="200" alt="" width="1100" class="img-rounded d-block mx-auto mb-4">
+
+                <form action="/submit" method="POST" enctype="multipart/form-data" >
+                    <div class="custom-file overflow-hidden mb-4">
+                        <input type="file" id="actual-btn" hidden name="image" />
+                        <label for="actual-btn">Choose File</label>
+                        <span id="file-chosen">No file chosen</span>
+                    </div>
+
+                    
+
+                    <h6 class="text-center mb-4 text-muted">
+                        Simply upload your Defected  Skin  image and then see the magic of AI.
+                    </h6>
+                    <center>
+                        <button class="button-17" role="button"><span class="text">Submit</span></button>
+                    </center>
+                </form>
+
+
+            </div>
+        </div>
+        <br>
+        <div class="row" style="display: flex;flex-direction: column;align-items: center;gap: 20px; ">
+            <div class="col mx-auto">
+                <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;">
+
+                    <h5><b>Why is it necessary to detect disease in Skin ?</b></h5>
+                    <p>Skin diseases affect the health and well-being of individuals. Additionally, some research gaps exist that need to be addressed to enhance the transparency and accuracy of detecting skin diseases, even before their symptoms become clearly visible. Diagnosis is a critical aspect of a dermatologist's training. Without proper identification of the disease and its causative agent, treatment measures can be ineffective, leading to wasted time and money, and potentially worsening the patient's condition. Therefore, accurate disease diagnosis is essential.
+                    </p>
+                </div>
+            </div>
+            <div class="col mx-auto">
+                <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;">
+                    <h5><b>To Prevent Skin Disease,follow below steps:</b></h5>
+                    <ol>
+                        <li>Follow Good Hygiene Practices.</li>
+                        <li>Maintain a Healthy Diet to Support Skin Health.</li>
+                        <li>Inspect Your Skin Regularly for Unusual Changes or Symptoms.</li>
+                        <li>Avoid Prolonged Exposure to Extreme Temperatures.</li>
+                        <li>Ensure a Healthy Routine by Regularly Cleaning and Moisturizing Your Skin.</li>
+                        <li>Provide Good Air Circulation to the Skin to Prevent Excessive Sweating.</li>
+                        <li>Remove and Treat Infected or Damaged Skin Areas Promptly.</li>
+                    </ol>
+                    <a target="_blank" href="https://www.healthline.com/skincare/skin-youre-in"
+                        class="mx-2">  <button type="button" class="btn btn-outline-primary">More info</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+
+<script>
+    const actualBtn = document.getElementById('actual-btn');
+
+    const fileChosen = document.getElementById('file-chosen');
+
+    actualBtn.addEventListener('change', function () {
+        fileChosen.textContent = this.files[0].name
+    })
+</script>
+
+{% endblock body %}
