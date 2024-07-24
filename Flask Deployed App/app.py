@@ -8,11 +8,11 @@ import pandas as pd
 from keras.models import load_model
 
 # Load data
-disease_info = pd.read_csv('path/Flask Deployed App/disease_info.csv', encoding='cp1252')
-supplement_info = pd.read_csv('path/Flask Deployed App/supplement_info.csv', encoding='cp1252')
+disease_info = pd.read_csv('/Flask Deployed App/disease_info.csv', encoding='cp1252')
+supplement_info = pd.read_csv('/Flask Deployed App/supplement_info.csv', encoding='cp1252')
 
 # Load model
-model = load_model("path/Flask Deployed App/skin_diseases_detection.h5")
+model = load_model("/Flask Deployed App/skin_diseases_detection.h5")
 
 def prediction(image_path):
     image = Image.open(image_path)
