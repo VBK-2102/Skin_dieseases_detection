@@ -1,0 +1,44 @@
+index,disease_name,description,Possible Steps,image_url
+0,Acne ,"Acne is a common skin condition that happens when hair follicles under the skin become clogged.
+Scab is caused by a fungus that infects both leaves and fruit.
+Scabby fruit are often unfit for eating.
+Infected leaves have olive green to brown spots.
+Leaves with many leaf spots turn yellow and fall off early.
+Leaf loss weakens the tree when it occurs many years in a row.
+Planting disease resistant varieties is the best way to manage scab.","Keep your skin clean: Wash your face twice a day with a gentle cleanser to remove dirt, oil, and bacteria.
+Use acne treatments: Apply over-the-counter products containing benzoyl peroxide or salicylic acid to help kill bacteria, dry up pimples, and reduce inflammation.
+Exfoliate regularly: Use a gentle exfoliating scrub or a chemical exfoliant containing alpha-hydroxy acids (AHAs) or beta-hydroxy acids (BHAs) one to three times a week to remove dead skin cells and unclog pores.
+Use a moisturizer: Apply a non-comedogenic moisturizer to help reduce inflammation and prevent dryness.
+Avoid picking or popping pimples: Resist the temptation to pick or pop pimples, as this can lead to further inflammation, scarring, and prolonged healing time.
+Consider prescription treatments: Consult a dermatologist for prescription-strength treatments such as antibiotics, retinoids, or hormonal therapies if your acne is severe or persistent.",https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/10/10/47_cysticacne-8col.jpg
+1,Rosacea,"Rosacea is a chronic and inflammatory skin condition characterized by recurring episodes of facial redness, flushing, and acne-like symptoms."," Protect Your Skin from the Sun
+
+Use a broad-spectrum sunscreen with an SPF of at least 30 daily, even on cloudy days.
+Look for sunscreens that contain physical sunblocks like zinc oxide or titanium dioxide, which are gentler on rosacea-prone skin.
+Apply sunscreen 15-30 minutes before going outside and reapply every 2 hours or immediately after swimming or sweating.
+Wear protective clothing, such as a wide-brimmed hat and long-sleeved shirts, when spending time outdoors.
+This single step can help reduce rosacea symptoms by:
+
+Reducing inflammation and redness caused by UV radiation
+Preventing further skin damage and scarring
+Helping to reduce the appearance of visible blood vessels
+Remember to consult a dermatologist for personalized advice on managing your rosacea.",https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/11/15/17/37/an02072_ds00308_im03557_sn7_rosacea_1thu_jpg.jpg
+2,Actinic Keratosis,"Actinic Keratosis (AK) is a common precancerous skin condition characterized by the growth of abnormal skin cells, typically on sun-exposed areas. It is estimated that 10% of people over 40 years old have at least one AK lesion.","Choose resistant cultivars when available.
+Rake up and dispose of fallen leaves and other debris from under trees.
+Remove galls from infected junipers. In some cases, juniper plants should be removed entirely.
+Apply preventative, disease-fighting fungicidesCryotherapy: Freezing the lesion with liquid nitrogen to destroy abnormal cells.
+Topical Creams and Gels: Applying creams or gels containing medications like fluorouracil, imiquimod, or ingenol mebutate to treat AK lesions.
+Photodynamic Therapy (PDT): Using a light-sensitive medication and specific wavelengths of light to destroy abnormal cells.
+Surgical Excision: Removing the lesion surgically, often for larger or more aggressive AKs.",https://assets.mayoclinic.org/content/dam/media/global/images/2023/02/09/actinic-keratosis.jpg
+3,Basal Cell,"Basal Cell Carcinoma (BCC) is the most common type of skin cancer, accounting for approximately 80% of all skin cancer cases.",">Surgical Excision: Removing the tumor surgically, often with a margin of healthy tissue.
+>Mohs Surgery: A specialized surgical technique that removes the tumor layer by layer, examining each layer under a microscope.
+>Curettage and Electrodessication: Scraping the tumor with a curette and then using an electric current to destroy remaining cancer cells.
+>Topical Creams and Gels: Applying creams or gels containing medications like imiquimod or 5-fluorouracil to treat superficial BCC.
+>Photodynamic Therapy (PDT): Using a light-sensitive medication and specific wavelengths of light to destroy cancer cells.
+>Prevention:
+>Sun Protection: Use broad-spectrum sunscreen with at least SPF 30, wear protective clothing, and seek shade when the sun is strong.
+>Regular Skin Exams: Perform regular self-exams and consult a dermatologist if you notice any suspicious skin changes.",https://assets.mayoclinic.org/content/dam/media/global/images/2023/02/10/basal-cell-carcinoma-on-white-skin.jpg
+4,Perioral_dermatit,"Perioral dermatitis is a chronic skin condition characterized by a rash or inflammation around the mouth, nose, and eyes. It is a type of dermatitis, which is a general term for skin inflammation.","Topical Antibiotics: Applying topical antibiotics, such as erythromycin or metronidazole, to reduce bacterial growth and inflammation.
+Topical Corticosteroids: Using mild topical corticosteroids to reduce inflammation and relieve symptoms.
+Oral Antibiotics: Prescribing oral antibiotics, such as doxycycline or minocycline, for more severe cases.
+Lifestyle Changes: Avoiding harsh skin care products, using gentle cleansers, and reducing stress can help manage perioral dermatitis.",https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2023/12/15/21/48/dermatitis-images-8col-004.jpg
